@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Региональный стоматологический университет</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
@@ -11,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 <body>
     <div class="global-wrapper">
@@ -20,14 +24,12 @@
                     <nav>
                         <ul class="nav__list">
                             <li class="nav__item"><a href="#preview">Главная</a></li>
-                            <li class="nav__item"><a href="#services">Услуги</a></li>
+                            <li class="nav__item"><a href="#services">Курсы</a></li>
                             <li class="nav__item"><a href="#check">Преимущества</a></li>
-                            <li class="nav__item"><a href="#invite">О компании</a></li>
-                            <li class="nav__item"><a href="#employees">Сотрудники</a></li>
+                            <li class="nav__item"><a href="#invite">Аккредитация</a></li>
                             <li class="nav__item"><a href="#question">FAQ</a></li>
-                            <li class="nav__item"><a href="#special">Акция</a></li>
-                            <li class="nav__item"><a href="#reviews">Отзывы</a></li>
-                            <li class="nav__item"><a href="#certificates">Сертифкаты</a></li>
+                            <li class="nav__item"><a href="#special">Прием документов</a></li>
+                            <li class="nav__item"><a href="#certificates">Лицензии</a></li>
                             <li class="nav__item"><a href="#callback">Задать вопрос</a></li>
                             <li class="nav__item"><a href="#contacts">Контакты</a></li>
                         </ul>
@@ -47,14 +49,12 @@
                             <nav class="nav-mobile">
                                 <ul class="nav__list mobile-nav__list" id="mobile-list">
                                     <li class="nav__item"><a href="#preview">Главная</a></li>
-                                    <li class="nav__item"><a href="#services">Услуги</a></li>
+                                    <li class="nav__item"><a href="#services">Курсы</a></li>
                                     <li class="nav__item"><a href="#check">Преимущества</a></li>
-                                    <li class="nav__item"><a href="#invite">О компании</a></li>
-                                    <li class="nav__item"><a href="#employees">Сотрудники</a></li>
+                                    <li class="nav__item"><a href="#invite">Аккредитация</a></li>
                                     <li class="nav__item"><a href="#question">FAQ</a></li>
-                                    <li class="nav__item"><a href="#special">Акция</a></li>
-                                    <li class="nav__item"><a href="#reviews">Отзывы</a></li>
-                                    <li class="nav__item"><a href="#certificates">Сертифкаты</a></li>
+                                    <li class="nav__item"><a href="#special">Прием документов</a></li>
+                                    <li class="nav__item"><a href="#certificates">Лицензии</a></li>
                                     <li class="nav__item"><a href="#callback">Задать вопрос</a></li>
                                     <li class="nav__item"><a href="#contacts">Контакты</a></li>
                                 </ul>
@@ -66,7 +66,7 @@
             <div class="contacts-header__wrapper container">
                 <div class="logo-title__wrapper">
                     <div class="logo__wrapper">
-                        <img src="/img/logo.svg" alt="Логотип компании" width="75" height="75">
+                        <img loading="lazy" src="/img/logo.svg" alt="Логотип компании" width="75" height="75">
                     </div>
                     <div class="title__wrapper">
                         <span>Региональный стоматологический университет <br> им Р.М. Вольфа</span>
@@ -74,9 +74,10 @@
                 </div>
                 <div class="number-callback__wrapper">
                     <div class="number__wrapper">
-                        <a href="tel:+7 (123) 123-45-67">+7 (123) 123-45-67</a>
+                        <a href="tel:+7 (499) 702-05-17">+7 (499) 702-05-17</a>
                     </div>
                     <div class="callback__container">
+			            <script data-b24-form="click/119/bopd5h" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_119_bopd5h.js');</script>
                         <button>Заказать звонок</button>
                     </div>
                 </div>
@@ -86,12 +87,16 @@
             <section class="preview__section" id="preview">
                 <div class="preview-screen">
                     <div class="preview-content__wrapper container">
-                        <h1>Счастливые часы в воскресенье с 9:00 - 21:00</h1>
+                        <h1>Аккредитация медицинских работников</h1>
                         <div class="preview-content__description">
-                            <span>Скидка 20% на терапевтическое лечение зубов. Период действия акции "Счастливые <br> часы" ограничено</span>
+                            <span>
+                                Профессиональная переподготовка <br>
+                                Повышение квалификации
+                            </span>
                         </div>
                         <div class="preview-content__button">
-                            <div class="button">Записаться на прием</div>
+			            <script data-b24-form="click/120/fsjlxa" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_120_fsjlxa.js');</script>                            
+                        <div class="button">Записаться</div>
                         </div>
                     </div>
                 </div>
@@ -99,96 +104,297 @@
             <section class="services__section container" id="services">
                 <div class="services-screen">
                     <div class="services__title-wrapper">
-                        <h2>Широкий профиль услуг</h2>
+                        <h2>Программы обучения</h2>
                         <div class="services__description">
-                            <span>Предлагаем Вашему вниманию наши услуги</span>
+                            <span>Предлагаем Вашему вниманию наши курсы</span>
                         </div>
                     </div>
                     <div class="services__list">
-                        <div class="services__item">
-                            <div class="item__img">
-                                <img src="/img/services-item1.webp" alt="Лечение кариеса" width="338" height="194">
-                            </div>
-                            <div class="services__wrapper-desc-price">
-                                <div class="item__description">
-                                    <h3>Лечение кариеса</h3>
-                                    <div class="item__list">
-                                        <ul>
-                                            <li class="services__list-item marker">Кариес начальный</li>
-                                            <li class="services__list-item marker">Кариес поверхностный</li>
-                                            <li class="services__list-item marker">Кариес средний</li>
-                                            <li class="services__list-item marker">Кариес глубокий</li>
-                                        </ul>
+                        <div class="swiper mySwiper__programms">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services1.jpg" alt="Стоматология" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Кариес начальный</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/122/hhwiz8" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_122_hhwiz8.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="item__price">
-                                    <div class="price-title__wrapper">
-                                        <p class="price-title__font">Стоимость</p>
-                                        <p class="price__font">от 7000 ₽</p>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services2.jpg" alt="Неотложные состояния в практике врача-стоматолога" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Неотложные состояния в практике врача-стоматолога</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Повышение квалификации специалистов со средним медицинским образованием</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 3000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/129/niwc2g" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_129_niwc2g.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="item__button">
-                                        <div class="button">Записаться</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services3.jpg" alt="Стоматологическая помощь населению. Отдельные вопросы для зубных врачей" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматологическая помощь населению. Отдельные вопросы для зубных врачей (СПО).</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Повышение квалификации специалистов со средним медицинским образованием</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/130/hd73p0" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_130_hd73p0.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services4.jpg" alt="Стоматология ортопедическая" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология ортопедическая</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Зубной техник</li>
+                                                            <li class="services__list-item marker">Старший зубной техник</li>
+                                                            <li class="services__list-item marker">Заведующий производством учреждений (отделов, отделений, лабораторий) зубопротезирования</li>
+                                                            <li class="services__list-item marker">Врач стоматолог-ортопед</li>
+                                                            <li class="services__list-item marker">Заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и др.) медицинской организации - врач-стоматолог-ортопед</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/128/f44ycz" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_128_f44ycz.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services5.jpg" alt="Стоматология общей практики" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология общей практики</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Врач-стоматолог</li>
+                                                            <li class="services__list-item marker">Заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и др.) медицинской организации - врач-стоматолог</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/127/55wvu2" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_127_55wvu2.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services6.jpg" alt="Детская стоматология" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология детская</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Врач-стоматолог-детский</li>
+                                                            <li class="services__list-item marker">Заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-стоматолог-детский</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/126/3q1rlv" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_126_3q1rlv.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services7.jpg" alt="Стоматология терапевтическая" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология терапевтическая</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Врач-стоматолог-терапевт</li>
+                                                            <li class="services__list-item marker">Заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-стоматолог-терапевт</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/125/54rdoa" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_125_54rdoa.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services8.jpg" alt="Стоматология хирургическая" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология хирургическая</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Врач-стоматолог-хирург</li>
+                                                            <li class="services__list-item marker">Заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-стоматолог-хирург</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/124/o6ta8d" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_124_o6ta8d.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="services__item">
+                                        <div class="item__img">
+                                            <img loading="lazy" src="/img/services/services9.jpg" alt="Стоматология профилкатическая" width="338" height="194">
+                                        </div>
+                                        <div class="services__wrapper-desc-price">
+                                            <div class="item__description">
+                                                <h3>Стоматология профилактическая</h3>
+                                                <div class="item__services-visibility">
+                                                    <div class="item__list">
+                                                        <ul>
+                                                            <li class="services__list-item marker">Гигиенист Стоматологический</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item__price">
+                                                <!-- <div class="price-title__wrapper">
+                                                    <p class="price-title__font">Стоимость</p>
+                                                    <p class="price__font">от 7000 ₽</p>
+                                                </div> -->
+                                                <div class="item__button">
+                                                    <script data-b24-form="click/123/zwzngn" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_123_zwzngn.js');</script>
+                                                    <div class="button">Записаться</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="services__item">
-                            <div class="item__img">
-                                <img src="/img/services-item2.webp" alt="Лечение кариеса" width="338" height="194">
+                        <div class="slider__wrapper-buttons">
+                            <div class="slider__btn prevBtn2" id="prevBtnCertificates">
+                                <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M338 419L175 256L338 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
+                                </svg>                            
                             </div>
-                            <div class="services__wrapper-desc-price">
-                                <div class="item__description">
-                                    <h3>Имплантация зубов</h3>
-                                    <div class="item__list">
-                                        <ul>
-                                            <li class="services__list-item marker">Винтовой имплант</li>
-                                            <li class="services__list-item marker">Новый имплант</li>
-                                            <li class="services__list-item marker">Имплантационная</li>
-                                            <li class="services__list-item marker">Имплантаты</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item__price">
-                                    <div class="price-title__wrapper">
-                                        <p class="price-title__font">Стоимость</p>
-                                        <p class="price__font">от 3000 ₽</p>
-                                    </div>
-                                    <div class="item__button">
-                                        <div class="button">Записаться</div>
-                                    </div>
-                                </div>
+                            <div class="slider__btn nextBtn2" id="nextBtnCertificates">
+                                <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M175 419L338 256L175 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
+                                </svg>
                             </div>
                         </div>
-                        <div class="services__item">
-                            <div class="item__img">
-                                <img src="/img/services-item3.webp" alt="Лечение кариеса" width="338" height="194">
-                            </div>
-                            <div class="services__wrapper-desc-price">
-                                <div class="item__description">
-                                    <h3>Терапевтическая стоматология</h3>
-                                    <div class="item__list">
-                                        <ul>
-                                            <li class="services__list-item marker">Зубная боль</li>
-                                            <li class="services__list-item marker">Кровоточивость десен</li>
-                                            <li class="services__list-item marker">Потемнение эмали и появление на ней пятен разного характера</li>
-                                            <li class="services__list-item marker">Повышенная стираемость зубов</li>
-                                            <li class="services__list-item marker">Гиберстезия (повышенная чувствительность зубов)</li>
-                                            <li class="services__list-item marker">Другие проблемы ротовой полости</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item__price">
-                                    <div class="price-title__wrapper">
-                                        <p class="price-title__font">Стоимость</p>
-                                        <p class="price__font">от 7000 ₽</p>
-                                    </div>
-                                    <div class="item__button">
-                                        <div class="button">Записаться</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
             <section class="check__section" id="check">
@@ -200,8 +406,8 @@
                             </svg>
                         </div>
                         <div class="check__desc-wrapper">
-                            <span class="check__title">Анализ аудитории</span>
-                            <span class="check__desc">Точно определим целевую аудиотрию</span>
+                            <script data-b24-form="click/120/fsjlxa" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_120_fsjlxa.js');</script>
+                            <span class="check__title">Профессиональная переподготовка</span>
                         </div>
                     </div>
                     <div class="check__item">
@@ -211,8 +417,8 @@
                             </svg>
                         </div>
                         <div class="check__desc-wrapper">
-                            <span class="check__title">Цели продвижения</span>
-                            <span class="check__desc">Предложим пути продвижения бизнеса</span>
+                            <script data-b24-form="click/120/fsjlxa" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_120_fsjlxa.js');</script>
+                            <span class="check__title">Повышение квалификации</span>
                         </div>
                     </div>
                     <div class="check__item">
@@ -222,8 +428,8 @@
                             </svg>
                         </div>
                         <div class="check__desc-wrapper">
-                            <span class="check__title">Рекламная акция</span>
-                            <span class="check__desc">Начнем проведение рекламной компании</span>
+                            <script data-b24-form="click/120/fsjlxa" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_120_fsjlxa.js');</script>
+                            <span class="check__title">Аккредитация медиков</span>
                         </div>
                     </div>
                 </div>
@@ -231,147 +437,30 @@
             <section class="invite__section" id="invite">
                 <div class="invite__wrapper container">
                     <div class="invite__desc-wrapper">
-                        <h2>Приходите на прием</h2>
+                        <h2>Запишитесь на:</h2>
                         
-                        <span class="invite__desc">
-                            Большинство людей боятся стоматологов с детства. Дети боятся страшного кресла, жужжания бор-машинки, вида щипцов и уколов. Взрослых, кроме этого, пугают современные цены на стоматологические услуги. Это способствует тому, что на прием к врачу-стоматологу пациенты приходят с острой болью, когда уже не помогает полоскание содой и даже сильные обезболивающие.
-                        </span>
-                        <span class="invite__desc">
-                            Не откладывайте поход к стоматологу и мы поможем Вам убедиться, что бояться нечего. К Вашим услугам: <br>
-                        </span class="invite__desc">
-                        <span class="invite__desc"> 
-                            - Квалифицированные специалисты смогут справиться с проблемами любой категории сложности;<br>- Современная аппаратура и собственная зуботехническая лаборатория позволят выполнить высокоточные работы в кратчайшие сроки;<br>- Индивидуальный подход к каждому пациенту гарантирует комфортные условия лечения без боли и страха;<br>- Для помощи нашим маленьким пациентам в клинике работает детский врач.
-                        </span>
-                        <span class="invite__desc">
-                            Лечить зубы теперь легко и совершенно не больно.
-                        </span>
+                        <ul>
+                            <li class="marker">Первичную аккредитацию</li>
+                            <li class="marker">Первичную специализированную аккредитацию (ПСА)</li>
+                            <li class="marker">Периодическую аккредитацию:</li>
+                            <ul style="margin-left: 20px;">
+                                <li class="marker">Получить баллы НМО / пройти курсы повышения квалификации</li>
+                                <li class="marker">Собрать портфолио</li>
+                                <li class="marker">Написать отчет за последние 5 лет</li>
+                                <li class="marker">Помощь с подачей документов</li>
+                            </ul>
+                        </ul>
 
                         <div class="invite__desc-button">
+                            <script data-b24-form="click/120/fsjlxa" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_120_fsjlxa.js');</script>
                             <div class="button">
-                                Записаться на прием
+                                Записаться
                             </div>
                         </div>
                     </div>
                     <div class="invite__img-wrapper">
                         <div class="invite__img">
-                            <img src="/img/54477960_2.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="employees__section" id="employees">
-                <div class="employees__wrapper container">
-                    <div class="employees__title-wrapper">
-                        <div class="employees__title">
-                            <h2>Наши сотрудники</h2>
-                        </div>
-                        <div class="employees__desc">
-                            <span>Ниже представлены наши сотрудники</span>
-                        </div>
-                    </div>
-                    <div class="swiper mySwiper__employees">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/54436311_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Иванова Оксана</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/54402065_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Михайлова Ирина</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/54430511_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Власова Елена</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/55062333_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Кузнецов Иван</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/54436311_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Иванова Оксана</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/54402065_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Михайлова Ирина</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/54430511_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Власова Елена</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider__slider-item">
-                                    <div class="slider-item__image">
-                                        <img src="/img/slider/55062333_2.webp" alt="">
-                                    </div>
-                                    <div class="slider-item__desc">
-                                        <h3>Кузнецов Иван</h3>
-                                        <span>Стомалог</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <div class="slider__wrapper-buttons">
-                        <div class="slider__btn prevBtn1" id="prevBtnEmployees">
-                            <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M338 419L175 256L338 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
-                            </svg>                            
-                        </div>
-                        <div class="slider__btn nextBtn1" id="nextBtnEmployees">
-                            <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M175 419L338 256L175 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
-                            </svg>
+                            <img loading="lazy" src="/img/invite.jpg" alt="Приглашаем на обучение">
                         </div>
                     </div>
                 </div>
@@ -386,7 +475,7 @@
                             <div class="question__item" id="firstQuestionSection">
                                 <div class="question__item-main">
                                     <div class="qustion__number-item">01</div>
-                                    <div class="question__title-item">Обязательно ли пользоваться нитью для чистки зубов?</div>
+                                    <div class="question__title-item">Что нужно чтобы начать у вас обучение?</div>
                                     <div class="question__icon-item" id="firstQuestionIcon">
                                         <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M338 419L175 256L338 93" stroke="#000" stroke-width="32" stroke-linecap="round"/>
@@ -399,7 +488,7 @@
                             <div class="question__item" id="secondQuestionSection">
                                 <div class="question__item-main">
                                     <div class="qustion__number-item">02</div>
-                                    <div class="question__title-item">Что делать, если произошла травма зуба?</div>
+                                    <div class="question__title-item">Можно ли пройти обучение дистанционно?</div>
                                     <div class="question__icon-item" id="secondQuestionIcon">
                                         <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M338 419L175 256L338 93" stroke="#000" stroke-width="32" stroke-linecap="round"/>
@@ -412,7 +501,7 @@
                             <div class="question__item" id="thirdQuestionSection">
                                 <div class="question__item-main">
                                     <div class="qustion__number-item">03</div>
-                                    <div class="question__title-item">Сколько зубов можно удалить одновременно</div>
+                                    <div class="question__title-item">Что я получу после окончания обучения?</div>
                                     <div class="question__icon-item" id="thirdQuestionIcon">
                                         <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M338 419L175 256L338 93" stroke="#000" stroke-width="32" stroke-linecap="round"/>
@@ -425,7 +514,7 @@
                             <div class="question__item" id="fourQuestionSection">
                                 <div class="question__item-main">
                                     <div class="qustion__number-item">04</div>
-                                    <div class="question__title-item">Можно ли отбелить зубной протез или коронку?</div>
+                                    <div class="question__title-item">Как можно оплатить обучение?</div>
                                     <div class="question__icon-item" id="fourQuestionIcon">
                                         <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M338 419L175 256L338 93" stroke="#000" stroke-width="32" stroke-linecap="round"/>
@@ -438,13 +527,14 @@
                         </div>
                         <div class="questions__avatar-wrapper">
                             <div class="questions__avatar">
-                                <img src="/img/kom2.webp" alt="">
+                                <img loading="lazy" src="/img/consultant.jpg" alt="Смирнова Мария">
                             </div>
                             <div class="questions__desc">
                                 <span>Консультант</span>
                                 <h3>Смирнова Мария</h3>
                             </div>
                             <div class="questions__button">
+				                <script data-b24-form="click/121/1qv1m8" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_121_1qv1m8.js');</script>
                                 <div class="button">Задать свой вопрос</div>
                             </div>
                         </div>
@@ -456,17 +546,12 @@
                     <div class="special-offer__wrapper">
                         <div class="special-offer__desc-wrapper">
                             <div class="special-offer__title">
-                                <h2>Лечим любой кариес</h2>
-                            </div>
-                            <div class="special-offer__desc">
-                                <span>
-                                    Только в ноябре с 9:00 до 14:00 лечение любого кариеса будет стоить 2500 рублей
-                                </span>
+                                <h2>Окончание приема документов</h2>
                             </div>
                         </div>
                         <div class="special-offer__timer-wrapper">
                             <div class="special-offer__timer-desc">
-                                <span>До конца акции осталось</span>
+                                <span>До начала следующего курса</span>
                             </div>
                             <div class="special-offer__timer" id="timer">
                                 <div class="time">
@@ -493,169 +578,21 @@
                     </div>
                 </div>
             </section>
-            <section class="reviews__section" id="reviews">
-                <div class="reviews__wrapper container">
-                    <div class="reviews__title">
-                        <h2>Отзывы наших клиентов</h2>
-                    </div>
-                    <div class="reviews__slider-container">
-                        <div class="swiper mySwiper__reviews">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <div class="reviews__slider-item">
-                                    <div class="reviews__img">
-                                        <img src="/img/sliderReviews/otziv1.webp" alt="">
-                                    </div>
-                                    <div class="reviews__name">
-                                        <h3>Ирина Токарева</h3>
-                                    </div>
-                                    <div class="reviews__company">
-                                        <span>Компания</span>
-                                    </div>
-                                    <div class="reviews__description">
-                                        <span>
-                                            Пока все очень хорошо, приятно работать с вашей компанией.
-                                            Эскиз дизайна совсем не разочаровал, а наоброт, порадовал.
-                                            Дизайнер точно и абсолютно правильно почувствовал наши пожелания.
-                                        </span>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="reviews__slider-item">
-                                    <div class="reviews__img">
-                                        <img src="/img/sliderReviews/otziv14.webp" alt="">
-                                    </div>
-                                    <div class="reviews__name">
-                                        <h3>Иван Александров</h3>
-                                    </div>
-                                    <div class="reviews__company">
-                                        <span>Компания</span>
-                                    </div>
-                                    <div class="reviews__description">
-                                        <span>
-                                            Эскиз дизайна совсем не разочаровал, а наоборот, порадовал. 
-                                            Дизайнер точно и абсолютно правильно почувствовал наши пожелания.
-                                        </span>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="reviews__slider-item">
-                                    <div class="reviews__img">
-                                        <img src="/img/sliderReviews/otziv15.webp" alt="">
-                                    </div>
-                                    <div class="reviews__name">
-                                        <h3>Иван Вениаминович</h3>
-                                    </div>
-                                    <div class="reviews__company">
-                                        <span>Компания</span>
-                                    </div>
-                                    <div class="reviews__description">
-                                        <span>
-                                            Эскиз дизайна совсем не разочаровал, а наоборот, порадовал. 
-                                            Дизайнер точно и абсолютно правильно почувствовал наши пожелания.
-                                        </span>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="reviews__slider-item">
-                                    <div class="reviews__img">
-                                        <img src="/img/sliderReviews/otziv6.webp" alt="">
-                                    </div>
-                                    <div class="reviews__name">
-                                        <h3>Анна Бородина</h3>
-                                    </div>
-                                    <div class="reviews__company">
-                                        <span>Компания</span>
-                                    </div>
-                                    <div class="reviews__description">
-                                        <span>
-                                            Пока все очень хорошо, приятно работать с вашей компанией.
-                                            Эскиз дизайна совсем не разочаровал, а наоброт, порадовал.
-                                            Дизайнер точно и абсолютно правильно почувствовал наши пожелания.
-                                        </span>
-                                    </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                          </div>
-                        <div class="slider__wrapper-buttons">
-                            <div class="slider__btn prevBtn" id="prevBtnReviews">
-                                <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M338 419L175 256L338 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
-                                </svg>                            
-                            </div>
-                            <div class="slider__btn nextBtn" id="nextBtnReviews">
-                                <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M175 419L338 256L175 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="certificates__section" id="certificates">
                 <div class="certificates__wrapper container">
                     <div class="certificates__title">
-                        <h2>Сертификаты</h2>
-                    </div>
-                    <div class="certificates__description">
-                        <span>Наша компания имеет большой опыт</span>
+                        <h2>Лицензии</h2>
                     </div>
                     <div class="certificates__slider-container">
-                        <div class="swiper mySwiper__certificates">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_2.webp" alt="" height="397">
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_3.webp" alt="" height="397">
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_5.webp" alt="" height="397">
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_6.webp" alt="" height="397">
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_6.webp" alt="" height="397">
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_8.webp" alt="" height="397">
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="certificates__slider-item">
-                                    <img src="/img/sliderCertificates/fgs16_9.webp" alt="" height="397">
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        <div class="slider__wrapper-buttons">
-                            <div class="slider__btn prevBtn2" id="prevBtnCertificates">
-                                <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M338 419L175 256L338 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
-                                </svg>                            
-                            </div>
-                            <div class="slider__btn nextBtn2" id="nextBtnCertificates">
-                                <svg width="24" height="24" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M175 419L338 256L175 93" stroke="#fff" stroke-width="32" stroke-linecap="round"/>
-                                </svg>
-                            </div>
+                        <div class="certificates__slider-item">
+                            <a data-fancybox="gallery"href="/img/sliderCertificates/license1.jpg">
+                                <img loading="lazy" src="/img/sliderCertificates/license1.jpg" alt="Лицензия">
+                            </a>
+                        </div>
+                        <div class="certificates__slider-item">
+                            <a data-fancybox="gallery"href="/img/sliderCertificates/license2.jpg">
+                                <img loading="lazy" src="/img/sliderCertificates/license2.jpg" alt="Лицензия">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -671,6 +608,7 @@
                         </div>
                     </div>
                     <div class="callback__wrapper-button">
+			            <script data-b24-form="click/119/bopd5h" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://crm-online24.ru/upload/crm/form/loader_119_bopd5h.js');</script>
                         <div class="button">
                             Перезвоните мне
                         </div>
@@ -679,7 +617,7 @@
             </section>
             <section class="map__section" id="contacts">
                 <div class="map__wrapper container">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa66ea9e05ec21611038eeae25dc651057e402a8f602d0e8efcd7d8674035dddc&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1ae41c9a5ef1699124f85b9c1a8fe15ce4561aa74697bd01c53e72eb07a637b8&amp;source=constructor" width="100%" height="300" frameborder="0" loading="lazy"></iframe>
                 </div>
             </section>
         </main>
@@ -695,15 +633,14 @@
                         </span>
                     </div>
                     <div class="footer__numbers-wrapper">
-                        <a href="tel:+7 (123) 123-45-67">+7 (123) 123-45-67</a>
-                        <a href="tel:+7 (123) 123-45-67">+7 (123) 123-45-67</a>
+                        <a href="tel:+7 (499) 702-05-17">+7 (499) 702-05-17</a>
                     </div>
                     <div class="footer__email-wrapper">
-                        <a href="mailto:mail@example.com">mail@example.com</a>
+                        <a href="mailto:info@n-t-u.ru">info@n-t-u.ru</a>
                     </div>
                     <div class="footer__address-wrapper">
                         <span>
-                            г. Санкт-Петербург, ул. Садовая 6, Россия
+                            г. Самара, ул. Ерошовского 3 
                         </span>
                     </div>
                 </div>
@@ -726,5 +663,23 @@
     <script src="/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/sliders.js"></script>
+    <!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+   		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   		m[i].l=1*new Date();
+   		for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   		k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   	ym(94510174, "init", {
+        	clickmap:true,
+        	trackLinks:true,
+        	accurateTrackBounce:true,
+        	webvisor:true,
+        	ecommerce:"dataLayer"
+   	});
+    </script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94510174" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>

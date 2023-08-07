@@ -1,64 +1,11 @@
-let swiperReviews = new Swiper(".mySwiper__reviews", {
+let swiperServices = new Swiper(".mySwiper__programms", {
   slidesPerView: 1,
   spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+  loop: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
   },
-  navigation: {
-    nextEl: ".nextBtn",
-    prevEl: ".prevBtn",
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 1,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 2,
-      spaceBetween: 50,
-    },
-  },
-});
-
-let swiperEmployees = new Swiper(".mySwiper__employees", {
-  slidesPerView: 1,
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".nextBtn1",
-    prevEl: ".prevBtn1",
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 40,
-    },
-    868: {
-      slidesPerView: 3,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 4,
-      spaceBetween: 20,
-    },
-  },
-});
-
-let swiperCertificates = new Swiper(".mySwiper__certificates", {
-  slidesPerView: 1,
-  spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -73,11 +20,15 @@ let swiperCertificates = new Swiper(".mySwiper__certificates", {
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1300: {
+      slidesPerView: 3,
       spaceBetween: 20,
     },
   },

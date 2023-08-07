@@ -44,7 +44,7 @@ let changeVisibilityFirst = () => {
     firstQuestionIcon.classList.add("switch-icon");
     firstQuestionVisibility.innerHTML = `
       <div class="question__visibility">
-        <span>При чистке зубной нитью вы удаляете зубной налет и частички пищи в таких участках полости рта, куда зубной щетке не добраться между зубами и под пришеечной частью десны и между зубами</span>
+        <span>Оформить заявку у нас на сайте или совершить звонок нам. Менеджер проконсультирует Вас по всем вопросам.</span>
       </div>
     `;
     firstVisibility = true;
@@ -63,7 +63,7 @@ let changeVisibilitySecond = () => {
     secondQuestionIcon.classList.add("switch-icon");
     secondQuestionVisibility.innerHTML = `
       <div class="question__visibility">
-        <span>Видов травм бывает много, даже в случае сломанного зуба встает вопрос, какая часть была сломана: коронковая часть или корень. Мог произойти не перелом, а подвывих. Или, может быть, вас беспокоит подвижность зуба. В любом случае надо прийти на прием к лучшим стоматологам нашей клиники</span>
+        <span>Да, все образовательные программы доступны в удобной для Вас форме.</span>
       </div>
     `;
     secondVisibility = true;
@@ -83,10 +83,7 @@ let changeVisibilityThird = () => {
     thirdQuestionVisibility.innerHTML = `
       <div class="question__visibility">
         <span>
-          Однозначного ответа на этот вопрос дать, к сожалению, нельзя – все зависит от ситуации:
-          <br>
-          <br>
-          Чаще всего, разумеется, за один раз удаляется только один зуб. В некоторых стоматологиях больше одного зуба вам не удалят никогда
+          После прохождения обучения Вы получите соответствующий документ установленного Федеральным Законом образца.
         </span>
       </div>
     `;
@@ -107,7 +104,7 @@ let changeVisibilityFour = () => {
     fourQuestionVisibility.innerHTML = `
       <div class="question__visibility">
         <span>
-          Сегодня не существует технологии, позволяющей отбелить коронку или протез из любого материала. Это обусловлено самой структурой искусственных конструкций, которая отличается от структуры живой эмали. Поэтому перед тем, как подбирать цвет коронок, следует отбелить свои зубы, и затем уже изготавливать коронки под цвет отбеленных зубов
+          Любым безналичным способом оплаты: банковской картой, через приложение банка или по выставленному счету.
         </span>
       </div>
     `;
@@ -126,11 +123,16 @@ const hours = document.querySelector("#hours");
 const minutes = document.querySelector("#minutes");
 const seconds = document.querySelector("#seconds");
 
-const nextDate = new Date(`August 1 2023 00:00:00`);
+const nextDate = new Date(`Tue Jul 27 2023 14:00:00 `);
 
 const updateTimer = () => {
   const currentTime = new Date();
   const diff = nextDate - currentTime;
+
+  if (nextDate - currentTime <= 1000) {
+    nextDate.setDate(nextDate.getDate() + 7);
+    console.log(true);
+  }
 
   const daysLeft = Math.floor(diff / 1000 / 60 / 60 / 24);
   const hoursLeft = Math.floor(diff / 1000 / 60 / 60) % 24;
@@ -146,7 +148,6 @@ const updateTimer = () => {
 updateTimer();
 
 setInterval(updateTimer, 1000);
-
 //Открытие меню на мобиле
 
 const burgerOpen = document.getElementById("burgerOpen");
