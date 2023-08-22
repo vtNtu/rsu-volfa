@@ -650,7 +650,7 @@
                     </div>
                     <div class="footer__contacts-description">
                         <span>
-                            Свяжемся с вами в ближайшее время
+                            Свяжемся с вами в ближайшее время.
                         </span>
                     </div>
                     <div class="footer__form-wrapper">
